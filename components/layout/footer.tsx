@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <footer>peler</footer>;
+  return <footer>On progress</footer>;
 };
 
 export default Footer;

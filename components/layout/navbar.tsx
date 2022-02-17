@@ -3,7 +3,7 @@ import { RiContactsLine } from "react-icons/ri";
 
 const Navbar = () => {
   return (
-    <nav className="shadow-md xl:px-20 px-6 sticky top-0 bg-white z-40 flex justify-between py-5">
+    <nav className="xl:px-20 px-6 sticky top-0 bg-white z-40 flex justify-between py-3 md:py-5">
       <div className="flex items-center w-1/3 xl:w-1/2">
         <img src="/assets/images/logo.png" />
       </div>
