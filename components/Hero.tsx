@@ -4,7 +4,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="xl:h-[92vh] h-screen bg-gray-200 flex xl:block justify-center">
+    <section className="xl:h-[92vh] h-screen bg-gray-200 flex xl:block justify-center">
       <div className="flex justify-between items-center">
         <div className="mx-auto xl:w-[50vw] w-full xl:px-40 md:px-12 px-6">
           <h1 className="md:text-6xl text-4xl font-bold text-gray-800">
@@ -17,7 +17,7 @@ const Hero = () => {
             winning.
           </p>
           <button>
-            <a href="#data">
+            <a href="#infografis">
               <p className="mt-10 flex justify-center items-center px-8 py-4 rounded-md text-white bg-sky-600 font-medium hover:bg-sky-800 duration-300 transition-all shadow-sky-600">
                 <AiOutlineArrowDown className="mr-2 text-2xl animate-bounce" />
                 Jelajahi Sekarang
@@ -35,7 +35,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
