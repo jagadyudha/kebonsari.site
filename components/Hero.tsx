@@ -4,7 +4,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section className="xl:h-[92vh] h-screen bg-gray-200 flex xl:block justify-center">
+    <section className="h-[92vh] bg-gray-200 flex xl:block justify-center">
       <div className="flex justify-between items-center">
         <div className="mx-auto xl:w-[50vw] w-full xl:px-40 md:px-12 px-6">
           <h1 className="md:text-6xl text-4xl font-bold text-gray-800">
