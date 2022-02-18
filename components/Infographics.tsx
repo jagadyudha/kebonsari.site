@@ -20,7 +20,10 @@ const Infographics = () => {
       </div>
       <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:py-12 py-6 xl:gap-x-8 gap-4">
         {Data.map((item) => (
-          <div className="border border-black border-opacity-20 rounded-lg px-12 py-16 text-center">
+          <div
+            key={item.id}
+            className="border border-black border-opacity-20 rounded-lg px-12 py-16 text-center"
+          >
             <p className="md:text-4xl text-2xl font-bold text-gray-800">
               {item.value}
             </p>
