@@ -15,7 +15,7 @@ const navigation = [
 const Navbar = () => {
   const router = useRouter();
   return (
-    <nav className="sticky top-0 z-50 bg-white">
+    <nav className="sticky top-0 z-50 bg-white border-black border-b border-opacity-10">
       <Popover>
         <div>
           <div className="flex sm:mx-20 mx-2 text-center sm:text-right sm:py-6 py-3 items-center justify-between px-5">
