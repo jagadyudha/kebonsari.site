@@ -8,7 +8,7 @@ import { useRouter } from 'next/router';
 const navigation = [
   { name: 'Beranda', href: '/' },
   { name: 'Infografis', href: '/#infografis' },
-  { name: 'UMKM', href: '/#' },
+  { name: 'UMKM', href: '/#umkm' },
   { name: 'Kontak', href: '/contact' },
 ];
 
@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className='sticky top-0 z-50 bg-white border-black border-b border-opacity-10'>
       <Popover>
         <div>
-          <div className='flex sm:mx-20 mx-2 text-center sm:text-right sm:py-6 py-3 items-center justify-between px-5'>
+          <div className='flex xl:mx-20 mx-2 text-center sm:text-right sm:py-6 py-3 items-center justify-between px-5'>
             <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
               <div className='flex items-center justify-between w-full md:w-auto'>
                 <div className='flex items-center'>

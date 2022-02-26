@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Data = [
-  { id: 1, name: 'Wilayah Dusun', value: 69 },
+  { id: 1, name: 'Wilayah Dusun', value: 1 },
   { id: 2, name: 'Penduduk', value: 5451 },
   { id: 3, name: 'Keluarga', value: 1393 },
   { id: 4, name: 'UMKM', value: 48 },

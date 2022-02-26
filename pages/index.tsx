@@ -1,17 +1,17 @@
-import React from "react";
-import Hero from "../components/Hero";
-import Infographics from "../components/Infographics";
-import Umkm from "../components/Umkm";
+import React from 'react';
+import Hero from '../components/Hero';
+import Infographics from '../components/Infographics';
+import Umkm from '../components/Umkm';
 
-import Seperator from "../components/Separator";
+import Seperator from '../components/Separator';
 
 const Home = () => {
   return (
     <main>
       <Hero />
-      <Seperator id="infografis" />
+      <Seperator id='infografis' />
       <Infographics />
-      <Seperator />
+      <Seperator id='umkm' />
       <Umkm />
     </main>
   );
