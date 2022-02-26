@@ -7,15 +7,15 @@ const Hero = () => {
     <section className="h-[92vh] bg-gray-200 flex xl:block justify-center items-center">
       <div className="flex justify-between items-center h-full">
         <div className="mx-auto xl:w-[50vw] w-full xl:px-32 md:px-12 px-6">
-          <h1 className="md:text-5xl text-4xl font-bold text-gray-800">
+          <h1 className="2xl:text-5xl text-4xl font-bold text-gray-800">
             Pemerintah Desa <span className="text-sky-600">KEBONSARI</span>
           </h1>
-          <p className="my-4 text-md text-gray-600">
+          <p className="my-4 2xl:text-xl text-md text-gray-600">
             Merupakan salah satu Desa yang berada pada wilayah Kabupaten
             Sidoarjo. Desa ini berada dibawah naungan pemerintah daerah dan
             kemendesa.
           </p>
-          <p className="my-4 text-md text-gray-600">
+          <p className="my-4 2xl:text-xl text-md text-gray-600">
             Desa kebonsari juga terdapat banyak program swadaya, wisata,
             kemasyarakatan dan acara rakyat untuk meningkatkan kesejahteraan
             masyarakat dalam wilayahnya.
