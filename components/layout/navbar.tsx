@@ -62,7 +62,7 @@ const Navbar = () => {
               <div className="float-right px-5 pt-4 flex items-center justify-between">
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center">
-                    <VscChromeClose className="text-lg text-white" />
+                    <VscChromeClose className="text-lg text-black" />
                   </Popover.Button>
                 </div>
               </div>
