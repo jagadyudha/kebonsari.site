@@ -18,11 +18,11 @@ const Infographics = () => {
           Data infografis terkait pemerintahan desa kebonsari yang sudah diolah.
         </p>
       </div>
-      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:py-12 py-6 xl:gap-x-8 gap-4">
+      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:py-12 py-6 xl:gap-x-4 2xl:gap-x-6 gap-4">
         {Data.map((item) => (
           <div
             key={item.id}
-            className="border border-black border-opacity-20 rounded-lg px-12 py-16 text-center"
+            className="border border-black border-opacity-20 rounded-lg px-12 py-14 2xl:py-20 text-center"
           >
             <p className="md:text-4xl text-2xl font-bold text-gray-800">
               {item.value}
