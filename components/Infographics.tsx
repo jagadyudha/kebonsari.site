@@ -9,12 +9,12 @@ const Data = [
 
 const Infographics = () => {
   return (
-    <section className="xl:px-40 md:px-12 px-6">
+    <section className="xl:px-32 md:px-12 px-6">
       <div className="text-center xl:w-1/2 w-full pb-6 mx-auto">
         <h2 className="md:text-4xl text-2xl font-bold text-gray-800">
           Infografis Desa
         </h2>
-        <p className="my-4 md:text-xl text-md text-gray-600">
+        <p className="my-4 md:text-xl text-md text-gray-500">
           Data infografis terkait pemerintahan desa kebonsari yang sudah diolah.
         </p>
       </div>
