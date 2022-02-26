@@ -7,7 +7,7 @@ export interface SeparatorProps {
 const Seperator: React.FC<SeparatorProps> = ({ id }) => {
   return (
     <div className="flex justify-center py-14" id={id}>
-      <div className="bg-sky-600 xl:w-5 xl:h-5  w-4 h-4 rounded-full"></div>
+      <div className="bg-sky-600 xl:w-4 xl:h-4  w-3 h-3 rounded-full"></div>
     </div>
   );
 };
