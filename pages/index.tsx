@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <main>
       <Hero />
-      <Seperator />
+      <Seperator id="infografis" />
       <Infographics />
       <Seperator />
       <Umkm />

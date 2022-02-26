@@ -10,7 +10,7 @@ const Data = [
 const Infographics = () => {
   return (
     <section className="xl:px-40 md:px-12 px-6">
-      <div className="text-center xl:w-1/2 w-full pb-6 mx-auto" id="infografis">
+      <div className="text-center xl:w-1/2 w-full pb-6 mx-auto">
         <h2 className="md:text-4xl text-2xl font-bold text-gray-800">
           Infografis Desa
         </h2>
@@ -18,7 +18,7 @@ const Infographics = () => {
           Data infografis terkait pemerintahan desa kebonsari yang sudah diolah.
         </p>
       </div>
-      <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:py-12 py-6 xl:gap-x-8 gap-4">
+      <div className="grid xl:grid-cols-4 sm:grid-cols-2 grid-cols-1 xl:py-12 py-6 xl:gap-x-8 gap-4">
         {Data.map((item) => (
           <div
             key={item.id}

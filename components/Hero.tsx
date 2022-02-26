@@ -16,9 +16,9 @@ const Hero = () => {
             trying to produce bigger and better idiots. So far, the Universe is
             winning.
           </p>
-          <button>
+          <button className="mt-10 ">
             <a href="#infografis">
-              <p className="mt-10 flex justify-center items-center px-8 py-4 rounded-md text-white bg-sky-600 font-medium hover:bg-sky-800 duration-300 transition-all shadow-sky-600">
+              <p className="flex justify-center items-center px-5 py-3 sm:px-8 sm:py-4 rounded-md text-white bg-sky-600 font-medium hover:bg-sky-800 duration-300 transition-all shadow-sky-600">
                 <AiOutlineArrowDown className="mr-2 text-2xl animate-bounce" />
                 Jelajahi Sekarang
               </p>
