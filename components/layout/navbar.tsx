@@ -21,9 +21,13 @@ const Navbar = () => {
           <div className='flex xl:mx-20 mx-2 text-center sm:text-right sm:py-6 py-3 items-center justify-between px-5'>
             <div className='flex items-center flex-grow flex-shrink-0 lg:flex-grow-0'>
               <div className='flex items-center justify-between w-full md:w-auto'>
-                <div className='flex items-center'>
-                  <img src='/assets/images/logo.png' />
-                </div>
+                <Link href={'/'}>
+                  <a>
+                    <div className='flex items-center'>
+                      <img src='/assets/images/logo.png' />
+                    </div>
+                  </a>
+                </Link>
                 <div className='-mr-2 flex items-center md:hidden'>
                   <Popover.Button className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-300 hove:bg-opacity-80'>
                     <GiHamburgerMenu className='text-lg text-black' />

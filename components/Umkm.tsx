@@ -16,7 +16,7 @@ const Umkm = () => {
 
       <div className='grid grid-cols-2 md:grid-cols-3 xl:py-12 py-6 md:gap-x-4 2xl:gap-x-8 gap-5'>
         {umkm.map((item) => (
-          <div>
+          <div key={item.id}>
             <div className='w-full overflow-hidden rounded-lg'>
               <Image
                 src={item.image}
