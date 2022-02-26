@@ -4,17 +4,21 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <section className="h-[92vh] bg-gray-200 flex xl:block justify-center">
-      <div className="flex justify-between items-center">
-        <div className="mx-auto xl:w-[50vw] w-full xl:px-40 md:px-12 px-6">
-          <h1 className="md:text-6xl text-4xl font-bold text-gray-800">
+    <section className="h-[92vh] bg-gray-200 flex xl:block justify-center items-center">
+      <div className="flex justify-between items-center h-full">
+        <div className="mx-auto xl:w-[50vw] w-full xl:px-32 md:px-12 px-6">
+          <h1 className="md:text-5xl text-4xl font-bold text-gray-800">
             Pemerintah Desa <span className="text-sky-600">KEBONSARI</span>
           </h1>
-          <p className="my-4 md:text-xl text-md text-gray-600">
-            Programming today is a race between software engineers striving to
-            build bigger and better idiot-proof programs, and the Universe
-            trying to produce bigger and better idiots. So far, the Universe is
-            winning.
+          <p className="my-4 text-md text-gray-600">
+            Merupakan salah satu Desa yang berada pada wilayah Kabupaten
+            Sidoarjo. Desa ini berada dibawah naungan pemerintah daerah dan
+            kemendesa.
+          </p>
+          <p className="my-4 text-md text-gray-600">
+            Desa kebonsari juga terdapat banyak program swadaya, wisata,
+            kemasyarakatan dan acara rakyat untuk meningkatkan kesejahteraan
+            masyarakat dalam wilayahnya.
           </p>
           <button className="mt-10 ">
             <a href="#infografis">
@@ -25,13 +29,12 @@ const Hero = () => {
             </a>
           </button>
         </div>
-        <div className="w-[49.5vw] h-full xl:block hidden">
+        <div className="w-1/2 h-full xl:block hidden"></div>
+        <div className="w-1/2 h-full xl:block hidden bg-black top-0 right-0 absolute">
           <Image
+            className="object-cover object-center w-full h-full"
             src={"/assets/images/hero.png"}
-            width="100wh"
-            height="92vh"
-            layout="responsive"
-            objectFit="cover"
+            layout="fill"
           />
         </div>
       </div>
