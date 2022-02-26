@@ -1,10 +1,14 @@
 import React from 'react';
 
 const Data = [
-  { id: 1, name: 'Wilayah Dusun', value: 1 },
-  { id: 2, name: 'Penduduk', value: 5451 },
-  { id: 3, name: 'Keluarga', value: 1393 },
-  { id: 4, name: 'UMKM', value: 48 },
+  { id: 1, name: 'Penduduk', value: 5451 },
+  { id: 2, name: 'Keluarga', value: 1393 },
+  { id: 3, name: 'Sektor Pertanian', value: 259 },
+  { id: 4, name: 'Sektor Peternakan', value: 272 },
+  { id: 5, name: 'Sektor Perikanan', value: 18 },
+  { id: 6, name: 'Sektor Industri Kecil', value: 5 },
+  { id: 7, name: 'Sektor Industri Besar', value: 1548 },
+  { id: 8, name: 'Sektor Jasa', value: 172 },
 ];
 
 const Infographics = () => {
