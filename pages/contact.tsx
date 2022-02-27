@@ -1,8 +1,35 @@
 import React from 'react';
+//seo
+import { NextSeo } from 'next-seo';
+import DataSeo from '../_data/seo.json';
+import { cardTwitter } from '../lib/seo';
 
 const Contact = () => {
+  const title = 'Kontak';
+  const description = `Kontak terkait dengan pemerintah KEBONSARI.`;
   return (
     <main className='mx-5'>
+      <NextSeo
+        title={`${title} - Pemerintah Desa Kebonsari`}
+        description={description}
+        canonical={`${DataSeo.url}/contact`}
+        openGraph={{
+          url: `${DataSeo.url}/activities`,
+          title: `${title} - Jagad Yudha Awali`,
+          description: description,
+          images: [
+            {
+              url: DataSeo.ogimage,
+              width: 1200,
+              height: 600,
+              alt: title,
+              type: 'image/jpeg',
+            },
+          ],
+          site_name: title,
+        }}
+        twitter={cardTwitter}
+      />
       <div className='text-center xl:mt-20 mt-5 mb-10'>
         <h1 className='font-sans font-bold text-gray-800 sm:text-4xl text-2xl my-5'>
           Kontak (031) 8945235
