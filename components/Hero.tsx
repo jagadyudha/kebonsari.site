@@ -12,11 +12,11 @@ const Hero = () => {
           </h1>
           <p className='my-4 2xl:text-xl md:text-lg text-md text-gray-500'>
             Merupakan salah satu Desa yang berada pada wilayah Kabupaten
-            Sidoarjo. Desa ini berada dibawah naungan pemerintah daerah dan
-            kemendesa.
+            Sidoarjo. Desa ini berada dibawah naungan Pemerintah Daerah dan
+            KemenDesa.
           </p>
           <p className='my-4 2xl:text-xl md:text-lg text-md text-gray-500'>
-            Desa kebonsari juga terdapat banyak program swadaya, wisata,
+            Desa KEBONSARI juga terdapat banyak program swadaya, wisata,
             kemasyarakatan dan acara rakyat untuk meningkatkan kesejahteraan
             masyarakat dalam wilayahnya.
           </p>

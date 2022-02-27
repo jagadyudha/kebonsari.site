@@ -31,7 +31,8 @@ const Umkm = () => {
               <h3 className='md:text-2xl text-xl text-gray-800'>{item.name}</h3>
               <div>
                 {' '}
-                {today.getHours() > parseInt(item.close.split(':')[0]) ? (
+                {today.getHours() > parseInt(item.close.split(':')[0]) &&
+                today.getHours() < parseInt(item.open.split(':')[0]) ? (
                   <>
                     <p className='text-red-500 text-sm md:text-md'>Tutup</p>
                     <p className='text-sm md:text-md text-gray-600 '>
