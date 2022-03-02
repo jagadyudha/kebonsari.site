@@ -15,7 +15,7 @@ const Contact = () => {
         canonical={`${DataSeo.url}/contact`}
         openGraph={{
           url: `${DataSeo.url}/activities`,
-          title: `${title} - Jagad Yudha Awali`,
+          title: `${title} - Pemerintah Desa Kebonsari`,
           description: description,
           images: [
             {
@@ -32,12 +32,10 @@ const Contact = () => {
       />
       <div className='text-center xl:mt-20 mt-5 mb-10'>
         <h1 className='font-sans font-bold text-gray-800 sm:text-4xl text-2xl my-5'>
-          Kontak (031) 8945235
+          Kontak
         </h1>
         <p className='text-gray-600 sm:text-lg text-md mx-auto max-w-2xl border-b pb-3 whitespace-pre-line'>
-          Jam Operasional : Senin 08.00–16.00 · Selasa 08.00–16.00 · Rabu
-          08.00–16.00 · Kamis 08.00–16.00 · Jumat 08.00–16.00 · Sabtu Tutup ·
-          Minggu Tutup
+          Telepon: (031) 8945235
         </p>
 
         <p className='text-gray-600 sm:text-lg text-md mx-auto max-w-2xl pt-3'>
