@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Beranda', href: '/' },
   { name: 'Infografis', href: '/#infografis' },
   { name: 'UMKM', href: '/#umkm' },
+  { name: 'Tanaman Toga', href: '/toga' },
   { name: 'Kontak', href: '/contact' },
 ];
 
