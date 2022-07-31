@@ -4,9 +4,9 @@ import { AiOutlineArrowDown } from 'react-icons/ai';
 
 const Hero = () => {
   return (
-    <section className='relative h-[94vh] bg-gray-200 flex xl:block justify-center items-center'>
+    <section className='relative h-[94vh] bg-[#F2F4F5] flex xl:block justify-center items-center'>
       <div className='flex justify-between items-center h-full'>
-        <div className='mx-auto xl:w-[50vw] w-full xl:px-32 md:px-12 px-6'>
+        <div className='mx-auto xl:w-[50vw] w-full xl:px-32 md:px-12 px-6 z-10'>
           <h1 className='2xl:text-5xl text-4xl font-bold text-gray-800'>
             Pemerintah Desa <span className='text-sky-600'>KEBONSARI</span>
           </h1>
@@ -30,9 +30,9 @@ const Hero = () => {
           </button>
         </div>
         <div className='w-1/2 h-full xl:block hidden'></div>
-        <div className='w-1/2 h-full xl:block hidden bg-black top-0 right-0 absolute'>
+        <div className='w-full lg:w-3/4 h-full top-0 right-0 absolute'>
           <Image
-            className='object-cover object-center w-full h-full'
+            className='object-cover object-center w-full h-full opacity-40 lg:opacity-100'
             src={'/assets/images/hero.png'}
             layout='fill'
           />
